@@ -1,0 +1,21 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <linearGradient id="svg_9">
+   <stop offset="0.51044" stop-color="#000000"/>
+   <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient spreadMethod="repeat" y2="0" x2="1" y1="0" x1="0" id="svg_10">
+   <stop offset="0.51044" stop-color="#000000"/>
+   <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <radialGradient spreadMethod="repeat" id="svg_11">
+   <stop offset="0.51044" stop-color="#000000"/>
+   <stop offset="1" stop-color="#ffffff"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>Face</title>
+  <path stroke="#000000" transform="rotate(-39.8727 479.982 63.793)" id="svg_8" d="m280.69427,-248.313l-38.57185,221.98417l-100.71536,142.29758l72.85791,51.22705l42.85759,227.67609l109.2869,34.15143l175.71616,-9.48651l276.43146,-720.97421" stroke-linecap="square" stroke-linejoin="round" stroke-width="15" fill="#896c51"/>
+ </g>
+</svg>

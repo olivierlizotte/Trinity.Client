@@ -1,0 +1,32 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <filter id="svg_5_blur">
+   <feGaussianBlur stdDeviation="0.6" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_4_blur">
+   <feGaussianBlur stdDeviation="0.3" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0.2" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_3_blur">
+   <feGaussianBlur stdDeviation="0.2" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_14">
+   <path stroke="#000000" id="svg_13" d="m115.428589,137.428558l-104,-18.742859l0,-22.257111l111,11.714264l-7,29.285706z" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="null" stroke-width="2" fill="#ddd0d0"/>
+   <path id="svg_12" d="m58,3l-54,24l0,16l63,-17l-9,-23z" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="#ddd0d0"/>
+   <path id="svg_11" d="m91,20l-84,23l0,17l92,-16l-8,-24z" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="#ddd0d0"/>
+   <path id="svg_10" d="m115,42l-104,16l0,19l111,-10l-7,-25z" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="#ddd0d0"/>
+   <path stroke="#000000" id="svg_9" d="m150,110l-1,-45l-135,11.25l1,24.230774l135,9.519226z" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="null" stroke-width="2" fill="#fffcfc"/>
+   <text filter="url(#svg_1_blur)" transform="rotate(-5 66 61.5)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="22" id="svg_1" y="69" x="66" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Patient #1</text>
+   <text stroke="#000000" id="svg_2" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="29" y="96.5" x="84" stroke-linecap="square" stroke-dasharray="null" stroke-width="0" fill="#000000">Patient #2</text>
+   <text filter="url(#svg_3_blur)" transform="rotate(5 65 111)" id="svg_3" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="22" y="118.5" x="65" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Patient #3</text>
+   <text filter="url(#svg_4_blur)" transform="rotate(-10 51 42.5)" id="svg_4" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="19" y="48.5" x="51" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Reference</text>
+   <text filter="url(#svg_5_blur)" transform="rotate(-20 33 26)" id="svg_5" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="15" y="30.5" x="33" stroke-linecap="square" stroke-linejoin="round" stroke-width="0" stroke="#000000" fill="#000000">DB Snp</text>
+  </g>
+ </g>
+</svg>

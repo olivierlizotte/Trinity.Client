@@ -1,0 +1,70 @@
+/*Open window function caller */
+div#openConsole {
+	top: 0px;
+  	position: absolute; 
+  	width: 99%;
+  	font-family: "aeroFont";
+  	font-size: 10px; 
+  	color: #000; 
+}
+
+/*Hide window function caller */
+div#hideConsole{
+  	position: absolute;
+  	bottom: 0;
+  	width: 99%;
+  	font-family: "aeroFont";
+  	font-size: 10px; 
+    text-align: center; 
+  	color: #000; 
+}
+
+#console-div {
+    color: #fff;
+	opacity:0.75;
+}
+
+#msg-div {
+    position:absolute;
+    top:0px;
+    width:90%;
+    z-index:20000;
+}
+#msg-div .msg {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.52);
+    border: 2px solid #ccc;
+    margin-top: 2px;
+    color: #555;
+}
+#msg-div .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#msg-div .msg p {
+    margin: 0;
+}
+
+span:hover {
+	cursor:pointer;
+}
+
+
+
+
+#code_hierarchy
+{
+    position:relative;
+    width:600px;
+    margin:0 auto;
+}
+
+#code_hierarchy_legend
+{
+    height:100px;
+    font-size:1.4em;
+    text-align:center;
+}
