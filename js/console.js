@@ -86,8 +86,8 @@ function OpenConsole()
 	var winWidth  = currentWidth * 0.9;
 	if(winWidth < 300)
 		winWidth = 300;
-	if(winWidth > 1024)
-		winWidth = 1024;
+	if(winWidth > 800)
+		winWidth = 800;
 		
 	var position = currentWidth - winWidth - 10;
 	$("#msg-div").css({left: position + "px", width: winWidth + "px"});

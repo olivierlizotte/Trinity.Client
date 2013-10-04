@@ -24,6 +24,21 @@ div#hideConsole{
 	opacity:0.75;
 }
 
+#winB-div {
+    position:absolute;    
+    top:10px;
+	right:10px;
+	width:100%;
+    z-index:20000;
+}
+#winB-div .win {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #F6F6F6;
+    margin-top: 2px;
+    color: #555;
+}
+
 #msg-div {
     position:absolute;
     top:0px;
@@ -38,6 +53,8 @@ div#hideConsole{
     border: 2px solid #ccc;
     margin-top: 2px;
     color: #555;
+    -webkit-box-shadow: -5px 6px 15px 0px #777;
+    box-shadow: -5px 6px 15px 0px #777;
 }
 #msg-div .msg h3 {
     margin: 0 0 8px;
@@ -53,7 +70,45 @@ span:hover {
 }
 
 
+/*MESSAGE BOX*/
+#msg-divB {
+    position:absolute;
+    top:20px;
+    z-index:20000;
+}
+#msg-divB .msg {
+    margin-top: 8px;
+    padding: 10px 15px;
+    color: #000;
+}
+#spectrum
+{
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #F6F6F6;
+    background: rgba(249, 249, 249, 0.9);
+    -webkit-box-shadow: -5px 6px 15px 0px #777;
+    box-shadow: -5px 6px 15px 0px #777;
+}
+#msg-divB .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#msg-divB .msg p {
+    margin: 0;
+}
 
+/*Hide window function caller */
+div#hideWindow {
+  	position: relative; 
+  	bottom: 0;  	
+  	width: 100%;
+  	font-family: "aeroFont";
+  	font-size: 10px; 
+    text-align: center; 
+  	color: #000; 
+}
 
 #code_hierarchy
 {

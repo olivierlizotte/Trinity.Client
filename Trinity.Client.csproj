@@ -77,6 +77,22 @@
     <Content Include="css\page.css" />
     <Content Include="css\window.css" />
     <Content Include="favicon.ico" />
+    <Content Include="js\jquery.ba-resize.min.js" />
+    <Content Include="lorikeet\images\lorikeet\header_lorikeet.png" />
+    <Content Include="lorikeet\images\lorikeet\header_scan.png" />
+    <Content Include="lorikeet\images\lorikeet\header_text.png" />
+    <Content Include="lorikeet\images\lorikeet\lorikeet_text_small.png" />
+    <Content Include="lorikeet\images\lorikeet\slider_handle.png" />
+    <Content Include="lorikeet\images\lorikeet\zoom_in.png" />
+    <Content Include="lorikeet\images\lorikeet\zoom_out.png" />
+    <Content Include="lorikeet\css\lorikeet.css" />
+    <Content Include="lorikeet\js\aminoacid.js" />
+    <Content Include="lorikeet\js\excanvas.min.js" />
+    <Content Include="lorikeet\js\ion.js" />
+    <Content Include="lorikeet\js\jquery.flot.js" />
+    <Content Include="lorikeet\js\jquery.flot.selection.js" />
+    <Content Include="lorikeet\js\peptide.js" />
+    <Content Include="lorikeet\js\specview.js" />
     <Content Include="svg\face.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

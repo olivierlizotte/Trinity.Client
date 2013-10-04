@@ -26,6 +26,10 @@ blockquote p:after {
 	content: '"';
 }
 
+div#gear
+{
+}
+
 /*Header*/
 div#header{
 	margin-left: 6px;
