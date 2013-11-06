@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
         Terminal = term;
         switch (command) {
             case "help":
-                term.echo("available commands are mysql, js, about, php");
+                term.echo("available commands are trinity, js, about, ls, help, exit");
                 break;
             case "trinity":
                 term.push(function (command, term) {
