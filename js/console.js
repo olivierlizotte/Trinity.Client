@@ -81,7 +81,7 @@ jQuery(document).ready(function ($) {
 //Pop up window with terminal
 function OpenConsole()
 {
-	$("#openConsole").hide(0, "linear", callback); 
+    $("#openConsole").hide(0, "linear", ConSolHiddenCallback); 
 	var currentWidth = $("body").width();
 	var winWidth  = currentWidth * 0.9;
 	if(winWidth < 300)
@@ -93,22 +93,22 @@ function OpenConsole()
 	$("#msg-div").css({left: position + "px", width: winWidth + "px"});
 	$("#console-div").show(0, "linear", function()
 	{
-		$("#msg-div").animate({ top: "0px" }, 800 , callback);
+	    $("#msg-div").animate({ top: "0px" }, 800, ConSolHiddenCallback);
 	});
 }
 
 //Hide terminal window and show small link instead
 function CloseConsole()
 {
-	$("#openConsole").show(0, "linear", callback); 
+    $("#openConsole").show(0, "linear", ConSolHiddenCallback); 
 		$("#msg-div").animate({ top: -$("#msg-div").height() }, 500 , function()
 		{
- 			$("#console-div").hide(0, "linear", callback); 
+ 			$("#console-div").hide(0, "linear", ConSolHiddenCallback); 
 		});
 }	
 
-//empty callback function. Can be used to know when the message window is hidden
-function callback(){};
+//empty callback function. Could be used to know when the message window is hidden
+function ConSolHiddenCallback() { };
 
 //$("#msg-div").clearQueue();
 window.onresize = OpenConsole;

@@ -21,7 +21,7 @@ div#hideConsole{
 
 #console-div {
     color: #fff;
-	opacity:0.75;
+	opacity:0.85;
 }
 
 #winB-div {
@@ -49,7 +49,7 @@ div#hideConsole{
     border-radius: 8px;
     -moz-border-radius: 8px;
     background: #000000;
-    background: rgba(0, 0, 0, 0.52);
+    background: rgba(0, 0, 0, 0.72);
     border: 2px solid #ccc;
     margin-top: 2px;
     color: #555;
